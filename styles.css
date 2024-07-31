@@ -111,6 +111,8 @@ div.btn {
     position: relative;
     /* text-align: center;
     color: white; */
+    display: flex;
+    gap: 20px;
 }
 
 .introduce {
