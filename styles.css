@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+div.container {
+    display: flex;
+}
+
+div.navBar {
+    width: 266px;
+    height: 3810px;
+    background-color: #0e1920;
+}
+
+div.navBar li {
+    font-weight: bold;
+    display: flex;
+}
+
+
+div.navBar p {
+    background: #121FCF;
+    background: linear-gradient(to right, #EE10B0 0%, #0E9EEF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    padding-top: 45px;
+    padding-left: 25px;
+}
+
+div.menu p {
+    font-size: 25px;
+    color: #ff3780;
+    padding-bottom: 20px;
+}
+
+div.menu ul {
+    list-style: none;
+    padding-left: 25px;
+    color: #ffffff;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+div.menu img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+div.boxRight {
+    background-color: #c9cdff;
+    width: 100%;
+    height: 3810px;
+}
+
+div.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.ti-search {
+    padding-left: 3px;
+}
+
+div.searchBar input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+div.searchBar {
+    display: flex;
+    gap: 5px;
+    width: 359px;
+    height: 38px;
+    background-color: #ffffff;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+div.navHeader ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+div.navHeader li {
+    color: #2b4f71;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+div.btn {
+    display: flex;
+    gap: 8px;
+    height: 38px;
+}
+
+div.btn button {
+    width: 119px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #c9cfdf;
+    background-color: #657a97;
+}
+
+div.slider {
+    display: flex;
+    gap: 10px;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: self-start;
+}
+
+div.slider img {
+    width: 901px;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.content {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+div.songItem {
+    width: 180px;
+    height: 220px;
+    background-color: #0e1920;
+}
+
+div.listWsongs {
+    display: flex;
+    gap: 10px;
+}
+
+.viewAll {
+    width: 63px;
+    height: 63px;
+    background-color: #000;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+div.newRelease {
+    padding-top: 20px;
+    
+}
+
+div.listNRsongs {
+    display: flex;
+    gap: 10px;
+}
