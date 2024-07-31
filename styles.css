@@ -107,6 +107,20 @@ div.btn {
     height: 38px;
 }
 
+.slice {
+    position: relative;
+    /* text-align: center;
+    color: white; */
+}
+
+.introduce {
+    color: red;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 250px;
+}
+
 div.btn button {
     width: 119px;
     border: 1px solid black;
