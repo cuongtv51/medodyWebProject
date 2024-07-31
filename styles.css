@@ -129,7 +129,7 @@ div.btn button {
     background-color: #657a97;
 }
 
-div.slider {
+/* div.slider {
     display: flex;
     gap: 10px;
     height: 100px;
@@ -137,6 +137,12 @@ div.slider {
     justify-content: center;
     padding-top: 20px;
     align-items: self-start;
+} */
+
+div.slice {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 div.slider img {
@@ -144,6 +150,15 @@ div.slider img {
     height: 100%;
     object-fit: cover;
 }
+
+
+
+
+
+
+
+
+
 
 div.content {
     margin-top: 20px;
