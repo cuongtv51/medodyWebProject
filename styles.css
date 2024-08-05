@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 } 
 
 div.container {
@@ -10,8 +11,9 @@ div.container {
 
 div.navBar {
     width: 266px;
-    height: 3810px;
+    height: 3500px;
     background-color: #0e1920;
+    
 }
 
 div.navBar li {
@@ -52,9 +54,9 @@ div.menu img {
 }
 
 div.boxRight {
-    background-color: #c9cdff;
+    background-color: #522b5b;
     width: 100%;
-    height: 3810px;
+    height: 3500px;
 }
 
 div.header {
@@ -64,6 +66,7 @@ div.header {
     height: 80px;
     align-items: center;
     padding: 0 10px;
+    p
 }
 
 .ti-search {
@@ -96,7 +99,7 @@ div.navHeader ul {
 }
 
 div.navHeader li {
-    color: #2b4f71;
+    color: #fbe4d8;
     font-weight: bold;
     font-size: 24px;
 }
@@ -109,14 +112,10 @@ div.btn {
 
 .slice {
     position: relative;
-    /* text-align: center;
-    color: white; */
-    display: flex;
-    gap: 20px;
 }
 
 .introduce {
-    color: red;
+    color: #ffffff ;
     position: absolute;
     top: 8px;
     left: 16px;
@@ -129,46 +128,66 @@ div.btn button {
     border-radius: 10px;
     color: #c9cfdf;
     background-color: #657a97;
+    font-weight: bold;
 }
 
-div.slider {
+div.slice {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+div.slideMain {
+    width: 100%;
+    position: relative;
+}
+
+div.introduce {
+    position: absolute;
+}
+
+div.groupBtn2 {
+    padding-top: 20px;
     display: flex;
     gap: 10px;
-    height: 100px;
-    width: 100%;
-    justify-content: center;
-    padding-top: 20px;
-    align-items: self-start;
 }
 
-div.slider img {
-    width: 901px;
-    height: 100%;
-    object-fit: cover;
+div.groupBtn2 button {
+    width: 127px;
+    height: 41px;
+    border: 1px solid #EE10B0;
+    border-radius: 10px;
+    background-color: #f39f53;
+    color: #1d1a39;
 }
 
 div.content {
-    margin-top: 20px;
-    padding-left: 20px;
+    margin-top: 50px;
+    padding-left: 50px;
 }
+
+
 
 div.songItem {
     width: 180px;
     height: 220px;
-    background-color: #0e1920;
+    background-color: #dfb6d2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+div.songItem p {
+    color: #190019;
 }
 
 div.listWsongs {
     display: flex;
-    gap: 10px;
-}
-
-.viewAll {
-    width: 63px;
-    height: 63px;
-    background-color: #000;
-    border: 1px solid black;
-    border-radius: 50%;
+    gap: 20px;
+    align-items: center;
 }
 
 div.newRelease {
@@ -179,4 +198,221 @@ div.newRelease {
 div.listNRsongs {
     display: flex;
     gap: 10px;
+}
+
+div.oval {
+    background-color: #1e1e1e;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 63px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.listNRsongs {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+div.trendSong {
+    padding-top: 20px;
+    width: 100%;
+    position: relative;
+
+}
+
+div.titleTable {
+    width: 100%;
+}
+
+div.titleTable ul {
+    padding-top: 15px;
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    position: absolute;
+    margin-left: auto;
+}
+
+div.contentTrendAll {
+    padding-top: 30px;
+}
+
+div.contentTrend {
+    /* background-color: #ffffff; */
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+div.infoSongs p {
+    color: #ffffff;
+}
+
+div.infoSongs {
+    background-color: #000;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
+div.viewBig {
+    background-color: #000;
+    width: 216px;
+    height: 63px;
+    margin-left: 40%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+div.viewbottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.popularArt {
+    margin-top: 40px;
+    
+}
+
+div.popularItems {
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+div.popularItem {
+    text-align: center;
+}
+
+div.musicVideo {
+    margin-top: 50px;
+}
+
+div.itemMV div.mv {
+    width: 300px;
+    height: 236px;
+    background-color: #1f1f1f;
+}
+
+div.itemMV {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+div.topAlbum {
+    margin-top: 40px;
+}
+
+div.listTalbum {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+div.moodPlaylist {
+    margin-top: 40px;
+}
+
+div.moodlists {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+div.infomation {
+    justify-content: space-between;
+    display: flex;
+    width: 910px;
+    margin-top: 20px;
+}
+
+div.infoJoin {
+    margin-top: 40px;
+}
+
+div.infoLeft {
+    width: 500px;
+    height: 93px;
+}
+
+div.infoLeft p {
+    font-size: 20px;
+}
+
+div.infoRight {
+    width: 400px;
+    display: flex;
+    gap: 10px;
+
+}
+
+div.infoRight button {
+    width: 187px;
+    height: 53px;
+    background-color: #1e1e1e;
+    color: #EE10B0;
+    border-radius: 10px;
+}
+
+div.footer {
+    margin-top: 100px;
+    padding-left: 50px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+
+}
+
+div.about {
+    width: 300px;
+}
+
+div.type {
+    display: flex;
+    gap: 20px;
+}
+
+ div.type .titlefooter {
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+div.type p {
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+div.iconFooter p {
+    background: linear-gradient(to right, #EE10B0 0%, #0E9EEF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+div.iconSocial {
+    display: flex;
+    gap: 20px;
+}
+
+div.iconFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 200px;
 }

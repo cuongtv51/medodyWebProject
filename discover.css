@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} 
+
+div.main {
+    display: flex;
+}
+
+div.navBar {
+    width: 266px;
+    height: 3500px;
+    background-color: #0e1920;
+    
+}
+
+div.navBar li {
+    font-weight: bold;
+    display: flex;
+}
+
+
+div.navBar p {
+    background: #121FCF;
+    background: linear-gradient(to right, #EE10B0 0%, #0E9EEF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    padding-top: 45px;
+    padding-left: 25px;
+}
+
+div.menu p {
+    font-size: 25px;
+    color: #ff3780;
+    padding-bottom: 20px;
+}
+
+div.menu ul {
+    list-style: none;
+    padding-left: 25px;
+    color: #ffffff;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+div.menu img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+div.boxRight2 {
+    background-color: #522b5b;
+    width: 100%;
+    height: 3500px;
+}
+
+div.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    padding: 0 10px;
+    p
+}
+
+.ti-search {
+    padding-left: 3px;
+}
+
+div.searchBar input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+div.searchBar {
+    display: flex;
+    gap: 5px;
+    width: 359px;
+    height: 38px;
+    background-color: #ffffff;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+div.navHeader ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+div.navHeader li {
+    color: #fbe4d8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+div.btn {
+    display: flex;
+    gap: 8px;
+    height: 38px;
+}
+
+div.btn button {
+    width: 119px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #c9cfdf;
+    background-color: #657a97;
+    font-weight: bold;
+}
+
+div.content2 {
+    margin-top: 50px;
+    padding-left: 50px;
+}
+
+div.musicGenres {
+    height: 230px;
+}
+
+div.listMusicGenres div.itemMgenres {
+    width: 230px;
+    height: 170px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+div.listMusicGenres {
+    display: flex;
+    gap: 20px;
+    position: relative;
+
+}
+
+div.musicGenres p {
+    padding-bottom: 20px;
+}
+
+div.itemMgenres img{
+}
+
+div.musicGenres div.itemMgenres p {
+    position: absolute;
+   
+    color: #ffffff;
+}
