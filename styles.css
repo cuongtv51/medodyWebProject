@@ -179,9 +179,19 @@ div.songItem {
     justify-content: center;
     align-items: center;
     gap: 11px;
+    text-align: center;
 }
 div.songItem p {
     color: #190019;
+}
+
+div.contentSong1 {
+    font-size: 19px;
+    font-weight: bold;
+}
+div.contentSong1 .name {
+    font-size: 15px;
+    font-weight: 200;
 }
 
 div.listWsongs {
@@ -250,6 +260,15 @@ div.contentTrend {
     padding-top: 10px;
 }
 
+div.infoSongs div.name p{
+    font-size: 15px;
+}
+
+div.infoSongs div.name .nameRank {
+    font-size: 25px;
+    font-weight: bold;
+}
+
 div.infoSongs p {
     color: #ffffff;
 }
@@ -259,6 +278,7 @@ div.infoSongs {
     display: flex;
     gap: 90px;
     align-items: center;
+    width: 90%;
 }
 
 div.viewBig {
