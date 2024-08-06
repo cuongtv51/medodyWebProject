@@ -311,6 +311,12 @@ div.popularItems {
     align-items: center;
 }
 
+div.popularItems div.popularItem p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 div.popularItem {
     text-align: center;
 }
@@ -325,14 +331,50 @@ div.itemMV div.mv {
     background-color: #1f1f1f;
 }
 
+div.mv p {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-left: 5px;
+}
+div.mv .views {
+    margin-left: 75%;
+}
+
+
 div.itemMV {
     display: flex;
     gap: 20px;
     padding-top: 20px;
+    align-items: center;
 }
 
 div.topAlbum {
     margin-top: 40px;
+}
+
+div.listTalbum div.topAlbumitem {
+    background-color: #1e1e1e;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+div.topAlbumitem p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+div.topAlbumitem div.iconTopalbum p {
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+div.topAlbumitem div.iconTopalbum {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
 }
 
 div.listTalbum {
@@ -343,6 +385,33 @@ div.listTalbum {
 
 div.moodPlaylist {
     margin-top: 40px;
+}
+
+div.moodItem {
+    background-color: #1e1e1e;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+div.moodItem div.para {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 5px;
+    align-items: center;
+    
+}
+
+div.moodItem div.para p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+div.moodItem div.para img {
+    background-color: #EE10B0;
+    border-radius: 7px;
+    padding-right: 3px;
 }
 
 div.moodlists {
@@ -369,6 +438,8 @@ div.infoLeft {
 
 div.infoLeft p {
     font-size: 20px;
+    color: #ffffff;
+    word-spacing: 2px;
 }
 
 div.infoRight {
