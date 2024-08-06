@@ -11,7 +11,7 @@ div.main {
 
 div.navBar {
     width: 266px;
-    height: 3500px;
+    height: 2500px;
     background-color: #0e1920;
     
 }
@@ -56,7 +56,7 @@ div.menu img {
 div.boxRight2 {
     background-color: #522b5b;
     width: 100%;
-    height: 3500px;
+    height: 2500px;
 }
 
 div.header {
@@ -139,6 +139,7 @@ div.listMusicGenres {
     display: flex;
     gap: 20px;
     position: relative;
+    align-items: center;
 
 }
 
@@ -146,10 +147,255 @@ div.musicGenres p {
     padding-bottom: 20px;
 }
 
-div.itemMgenres img{
-}
-
 div.musicGenres div.itemMgenres p {
     position: absolute;
     color: #ffffff;
+}
+
+div.moodPlaylist {
+    margin-top: 40px;
+}
+
+div.moodItem {
+    background-color: #1e1e1e;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+div.moodItem div.para {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 5px;
+    align-items: center;
+    
+}
+
+div.moodItem div.para p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+div.moodItem div.para img {
+    background-color: #EE10B0;
+    border-radius: 7px;
+    padding-right: 3px;
+}
+
+div.moodlists {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+div.oval {
+    background-color: #1e1e1e;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 63px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.popularArt {
+    margin-top: 40px;
+    
+}
+
+div.popularItems {
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+div.popularItems div.popularItem p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.popularItem {
+    text-align: center;
+}
+
+div.musicVid {
+    padding-top: 40px;
+}
+
+div.musicVidItem {
+    display: flex;
+    align-items: center;
+}
+
+div.musicVidItem div.group1 {
+    display: flex;
+    gap: 20px;
+    padding: 20px 15px 0 0;
+    
+}
+
+div.musicVidItem div.group2 {
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+div.itemvidMusic {
+    background-color: #1e1e1e;
+}
+
+div.musicVidItem p {
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+div.itemvidMusic .nameVid {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.itemvidMusic div.viewVid {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+
+div.newRelease {
+    padding-top: 20px;
+}
+
+div.listNRsongs {
+    display: flex;
+    gap: 10px;
+}
+
+div.listNRsongs {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+div.songItem {
+    width: 180px;
+    height: 220px;
+    background-color: #dfb6d2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    text-align: center;
+}
+div.songItem p {
+    color: #190019;
+}
+
+div.contentSong1 .name {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+div.contentSong1 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+div.newAlbum {
+    padding-top: 40px;
+}
+
+div.listNewAlbum {
+    display: flex;
+    gap: 20px;
+}
+
+div.topAlbum {
+    margin-top: 40px;
+}
+
+div.listTalbum div.topAlbumitem {
+    background-color: #1e1e1e;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+div.topAlbumitem p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+div.topAlbumitem div.iconTopalbum p {
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+div.topAlbumitem div.iconTopalbum {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+div.listTalbum {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+div.footer {
+    margin-top: 100px;
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+
+}
+
+div.about {
+    width: 300px;
+}
+
+div.type {
+    display: flex;
+    gap: 20px;
+}
+
+ div.type .titlefooter {
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+div.type p {
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+div.iconFooter p {
+    background: linear-gradient(to right, #EE10B0 0%, #0E9EEF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+div.iconSocial {
+    display: flex;
+    gap: 20px;
+}
+
+div.iconFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 200px;
 }

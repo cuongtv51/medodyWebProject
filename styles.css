@@ -200,16 +200,6 @@ div.listWsongs {
     align-items: center;
 }
 
-div.newRelease {
-    padding-top: 20px;
-    
-}
-
-div.listNRsongs {
-    display: flex;
-    gap: 10px;
-}
-
 div.oval {
     background-color: #1e1e1e;
     border: 1px solid black;
@@ -219,6 +209,15 @@ div.oval {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+div.newRelease {
+    padding-top: 20px;
+}
+
+div.listNRsongs {
+    display: flex;
+    gap: 10px;
 }
 
 div.listNRsongs {
@@ -381,6 +380,7 @@ div.listTalbum {
     display: flex;
     gap: 15px;
     padding-top: 20px;
+    align-items: center;
 }
 
 div.moodPlaylist {
@@ -418,6 +418,7 @@ div.moodlists {
     display: flex;
     gap: 15px;
     padding-top: 20px;
+    align-items: center;
 }
 
 div.infomation {
