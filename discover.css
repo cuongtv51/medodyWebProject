@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-} 
+
+}
 
 div.main {
     display: flex;
@@ -13,7 +13,7 @@ div.navBar {
     width: 266px;
     height: 2500px;
     background-color: #0e1920;
-    
+
 }
 
 div.navBar li {
@@ -167,7 +167,7 @@ div.moodItem div.para {
     justify-content: space-between;
     padding: 5px 0 5px;
     align-items: center;
-    
+
 }
 
 div.moodItem div.para p {
@@ -203,7 +203,7 @@ div.oval {
 
 div.popularArt {
     margin-top: 40px;
-    
+
 }
 
 div.popularItems {
@@ -236,7 +236,7 @@ div.musicVidItem div.group1 {
     display: flex;
     gap: 20px;
     padding: 20px 15px 0 0;
-    
+
 }
 
 div.musicVidItem div.group2 {
@@ -292,6 +292,7 @@ div.songItem {
     gap: 11px;
     text-align: center;
 }
+
 div.songItem p {
     color: #190019;
 }
@@ -367,12 +368,13 @@ div.type {
     gap: 20px;
 }
 
- div.type .titlefooter {
+div.type .titlefooter {
     font-size: 45px;
     color: #ffffff;
     font-weight: bold;
     padding-bottom: 10px;
 }
+
 div.type p {
     font-weight: bold;
     font-size: 25px;

@@ -508,3 +508,15 @@ div.iconFooter {
     width: 400px;
     height: 200px;
 }
+
+div.contentTrend div.infoSongs .name {
+    width: 15%;
+}
+
+div.contentTrend div.infoSongs .date {
+    width: 10%;
+}
+
+div.contentTrend div.infoSongs .titleAlbum {
+    width: 30%;
+}

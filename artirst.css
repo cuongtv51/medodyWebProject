@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+div.wrapper {
+    display: flex;
+    background-color: #121FCF;
+}
+
+div.navBar {
+    width: 266px;
+    height: 3500px;
+    background-color: #0e1920;
+
+}
+
+div.navBar li {
+    font-weight: bold;
+    display: flex;
+}
+
+:root {
+    --text-main-color: #ffffff;
+    --text-hightlight: #ee10b0;
+    --background-main: #4a2645;
+    --background-color-item: #1e1e1e;
+}
+
+
+div.navBar p {
+    background: #121FCF;
+    background: linear-gradient(to right, #EE10B0 0%, #0E9EEF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    padding-top: 45px;
+    padding-left: 25px;
+}
+
+div.menu p {
+    font-size: 25px;
+    color: #ff3780;
+    padding-bottom: 20px;
+}
+
+div.menu ul {
+    list-style: none;
+    padding-left: 25px;
+    color: #ffffff;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+div.menu img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+div.box__right {
+
+    background-color: var(--background-main);
+    width: 100%;
+    margin: 20px 20px;
+}
+
+
+
+div.slider__center {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/464/420/36/5c1ca4b1bf4c2-wallpaper-preview.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.slider__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+div.ti-arrow-left {
+    font-size: 25px;
+}
+
+div.slider__top--right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+div.slider__top--right img {
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+div.slider__top--right a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.slider__bottom p {
+    padding-left: 4%;
+    padding-top: 30%;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+div.content__boxRight {
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+div.artirst__albums--list,
+div.single__songs--lists,
+div.artirst__playlist--lists
+{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+
+div.artirst__albums--item,
+div.single__songs--item,
+div.artirst__playlist--item
+{
+    background-color: var(--background-color-item);
+    border: 1px solid var(--background-color-item);
+    border-radius: 5px;
+}
+
+div.artirst__albums--icon,
+div.single__songs--icon,
+div.artirst__playlist--icon
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    align-items: center;
+}
+
+div.artirst__albums--item p,
+div.single__songs--item p,
+div.artirst__playlist--item p
+{
+    color: var(--text-main-color);
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+div.oval {
+    background-color: #1e1e1e;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 63px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.single__songs--item {
+    width: 171px;
+}
+
+div.single__songs--item img {
+    padding: 8px 0 5px 12px;
+}
+
+div.artirst__playlist--icon {
+    padding-top: 15px;
+}
+
+div.artirst__fanListen--lists {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+div.artirst__fanListen--item p {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-main-color);
+}
+
+
+
+
+    
