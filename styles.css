@@ -239,11 +239,20 @@ div.titleTable {
 
 div.titleTable ul {
     padding-top: 15px;
+    margin-bottom: 10px;
     display: flex;
     list-style: none;
-    gap: 60px;
+    /* gap: 60px; */
     position: absolute;
-    margin-left: auto;
+    margin-left: 38%;
+    width: 630px;
+    justify-content: space-between;
+}
+
+div.titleTable li {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 div.contentTrendAll {
@@ -519,4 +528,5 @@ div.contentTrend div.infoSongs .date {
 
 div.contentTrend div.infoSongs .titleAlbum {
     width: 30%;
+    text-align: center;
 }

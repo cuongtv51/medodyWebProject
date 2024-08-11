@@ -192,7 +192,128 @@ div.artirst__fanListen--item p {
     color: var(--text-main-color);
 }
 
+div.popular__music {
+    padding-top: 40px;
+}
 
+div.popular__tittleMusic {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+    width: 700px;
+    margin-left: 30%;
+}
+
+div.popular__tittleMusic p {
+    color: var(--text-main-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div.popular__music {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+div.popular__musicItem {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+div.popular__musicInfo {
+    display: flex;
+    width: 87%;
+    background-color: var(--background-color-item);
+    
+    align-items: center;
+}
+
+
+div.popular__musicInfo--name {
+    width: 28%;
+    margin-left: 10px;
+}
+
+.popular__musicInfo--date {
+    width: 38%;
+}
+
+.popular__musicInfo--played {
+    width: 34%;
+}
+
+div.popular__musicInfo--time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+div.popular__musicInfo--name p {
+    color: var(--text-main-color);
+    font-size: 15px;
+}
+
+.popular__musicInfo--date ,
+.popular__musicInfo--played ,
+div.popular__musicInfo--time p
+{
+    color: var(--text-main-color);
+}
+
+div.footer {
+    margin-top: 100px;
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+
+}
+
+div.about {
+    width: 300px;
+}
+
+div.type {
+    display: flex;
+    gap: 20px;
+}
+
+ div.type .titlefooter {
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+div.type p {
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+div.iconFooter p {
+    background: linear-gradient(to right, #EE10B0 0%, #0E9EEF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+div.iconSocial {
+    display: flex;
+    gap: 20px;
+}
+
+div.iconFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
 
 
     
