@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+} 
+
+:root {
+    --text-main-color: #ffffff;
+    --text-hightlight: #ee10b0;
+    --background-main: #4a2645;
+    --background-color-item: #1e1e1e;
+}
+
+div.album__container {
+    display: flex;
+    background-color:var(--background-main) ;
+    height: 2400px;
+}
+
+
+
+div.navBar {
+    width: 266px;
+    height: 2400px;
+    background-color: #0e1920;
+    
+}
+
+div.navBar li {
+    font-weight: bold;
+    display: flex;
+}
+
+
+div.navBar p {
+    background: #121FCF;
+    background: linear-gradient(to right, #EE10B0 0%, #0E9EEF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    padding-top: 45px;
+    padding-left: 25px;
+}
+
+div.menu p {
+    font-size: 25px;
+    color: #ff3780;
+    padding-bottom: 20px;
+}
+
+div.menu ul {
+    list-style: none;
+    padding-left: 25px;
+    color: #ffffff;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+div.menu img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+div.Content__albumPage {
+    background-image: linear-gradient(to right,#1171e2,#53add6,#8bcbe7);
+    width: 152%;
+    margin: 20px 20px;
+    padding-bottom: 30px;
+}
+
+div.slider__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+}
+
+div.slider__top .ti-arrow-left {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--text-main-color);
+}
+
+div.slider__topRight {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+div.slider__topRight a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div.slider__topRight img {
+    background-color: #1e1e1e;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+div.slider__center {
+    display: flex;
+    gap: 40px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+div.slider__centerRight {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    gap: 70px;
+}
+
+div.slider__centerRight p {
+    color: var(--text-main-color);
+    font-size: 17px;
+    font-weight: bold;
+}
+div.slider__centerRight div.intro {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+div.slider__bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+    gap: 10px;
+}
+
+div.slider__bottom p {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--text-hightlight);
+}
+
+div.rank__tittle {
+    display: flex;
+    width: 750px;
+    margin-left: 28%;
+    justify-content: space-between;
+}
+
+div.rank__tittle p {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-main-color);
+}
+
+div.rank__item {
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+    padding-left: 10px;
+    align-items: center;
+    padding-right: 10px;
+}
+div.rank__Info {
+    display: flex;
+    width: 98%;
+    
+    background-color: var(--background-color-item);
+    align-items: center;
+}
+
+div.totalInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+div.rank__Info p {
+    color: var(--text-main-color);
+}
+
+div.rank__Info--name .nameMain {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+ div.rank__Info .totalInfo {
+    width: 26%;
+}
+
+.rank__Info--date {
+    width: 15%;
+}
+
+.rank__Info--album {
+    width: 42%;
+    text-align: center;
+}
+
+div.rank__Info--time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+div.footer {
+    margin-top: 100px;
+    padding-left: 60px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+
+}
+
+div.about {
+    width: 300px;
+}
+
+div.type {
+    display: flex;
+    gap: 20px;
+}
+
+div.type .titlefooter {
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+div.type p {
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+div.iconFooter p {
+    background: linear-gradient(to right, #EE10B0 0%, #0E9EEF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+div.iconSocial {
+    display: flex;
+    gap: 20px;
+}
+
+div.iconFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
