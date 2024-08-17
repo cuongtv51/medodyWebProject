@@ -1,34 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-
-div.wrapper {
-    display: flex;
-    background-color: #121FCF;
-}
-
-div.navBar {
-    width: 266px;
-    height: 3500px;
-    background-color: #0e1920;
-
-}
-
-div.navBar li {
-    font-weight: bold;
-    display: flex;
+    font-family: "Be Vietnam Pro", sans-serif;
 }
 
 :root {
     --text-main-color: #ffffff;
     --text-hightlight: #ee10b0;
-    --background-main: #4a2645;
+    --background-main: #49293f;
     --background-color-item: #1e1e1e;
 }
 
+div.wrapper {
+    display: flex;
+    background-color: var(--background-main);
+}
+
+div.navBar {
+    /* width: 266px;
+    height: 2400px ; */
+    background-color: #0e1920;
+    
+}
+
+div.navBar li {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+div.navBar li:hover {
+    background-color: #EE10B0;
+    color: #1e1e1e;
+    border-radius: 20px;
+}
 
 div.navBar p {
     background: #121FCF;
@@ -38,6 +49,7 @@ div.navBar p {
     font-size: 60px;
     padding-top: 45px;
     padding-left: 25px;
+    padding-right: 15px;
 }
 
 div.menu p {
@@ -61,9 +73,10 @@ div.menu img {
     margin-right: 5px;
 }
 
-div.box__right {
 
-    background-color: var(--background-main);
+div.box__right {
+    background-image: linear-gradient(to right,#0c0b0b,#000000);
+    
     width: 100%;
     margin: 20px 20px;
 }
@@ -72,8 +85,8 @@ div.box__right {
 
 div.slider__center {
     background-image: url(https://c4.wallpaperflare.com/wallpaper/464/420/36/5c1ca4b1bf4c2-wallpaper-preview.jpg);
-    width: 100%;
-    height: 500px;
+    /* width: 100%;
+    height: 500px; */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -111,6 +124,7 @@ div.slider__bottom p {
     padding-top: 30%;
     font-size: 55px;
     font-weight: bold;
+    padding-bottom: 100px;
 }
 
 div.content__boxRight {
@@ -123,7 +137,7 @@ div.single__songs--lists,
 div.artirst__playlist--lists
 {
     display: flex;
-    gap: 26px;
+    gap: 50px;
     align-items: center;
 }
 
@@ -198,11 +212,11 @@ div.popular__music {
 
 div.popular__tittleMusic {
     display: flex;
-    justify-content: space-between;
     padding: 10px 10px;
     align-items: center;
-    width: 700px;
-    margin-left: 30%;
+    margin-left: 32%;
+    width: 658px;
+    gap: 381px;
 }
 
 div.popular__tittleMusic p {
@@ -226,7 +240,7 @@ div.popular__musicItem {
 
 div.popular__musicInfo {
     display: flex;
-    width: 87%;
+    width: 95%;
     background-color: var(--background-color-item);
     
     align-items: center;
@@ -264,12 +278,22 @@ div.popular__musicInfo--time p
     color: var(--text-main-color);
 }
 
+div.artirst__albums,
+div.single__songs,
+div.artirst__playlist,
+div.artirst__fanListen,
+div.footer
+{
+    padding-left: 60px;
+    padding-top: 50px;
+}
+
 div.footer {
     margin-top: 100px;
-    padding-left: 20px;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     gap: 30px;
+    padding-bottom: 50px;
 
 }
 

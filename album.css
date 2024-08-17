@@ -1,7 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+
     
 } 
 
@@ -15,14 +20,14 @@
 div.album__container {
     display: flex;
     background-color:var(--background-main) ;
-    height: 2400px;
+    
 }
 
 
 
 div.navBar {
-    width: 266px;
-    height: 2400px;
+    /* width: 266px;
+    height: 2400px ; */
     background-color: #0e1920;
     
 }
@@ -30,8 +35,17 @@ div.navBar {
 div.navBar li {
     font-weight: bold;
     display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 17px;
 }
 
+div.navBar li:hover {
+    background-color: #EE10B0;
+    color: #1e1e1e;
+    border-radius: 20px;
+}
 
 div.navBar p {
     background: #121FCF;
@@ -41,6 +55,7 @@ div.navBar p {
     font-size: 60px;
     padding-top: 45px;
     padding-left: 25px;
+    padding-right: 15px;
 }
 
 div.menu p {
@@ -66,7 +81,7 @@ div.menu img {
 
 div.Content__albumPage {
     background-image: linear-gradient(to right,#1171e2,#53add6,#8bcbe7);
-    width: 152%;
+
     margin: 20px 20px;
     padding-bottom: 30px;
 }
@@ -143,8 +158,8 @@ div.slider__bottom p {
 
 div.rank__tittle {
     display: flex;
-    width: 750px;
-    margin-left: 28%;
+    width: 818px;
+    margin-left: 27%;
     justify-content: space-between;
 }
 

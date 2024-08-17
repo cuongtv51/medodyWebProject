@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Be Vietnam Pro", sans-serif;
+
     
 } 
 
@@ -11,7 +14,7 @@ div.container {
 
 div.navBar {
     width: 266px;
-    height: 3500px;
+    height: 3800px;
     background-color: #0e1920;
     
 }
@@ -19,31 +22,46 @@ div.navBar {
 div.navBar li {
     font-weight: bold;
     display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+div.navBar li:hover {
+    background-color: #EE10B0;
+    color: #1e1e1e;
+    border-radius: 20px;
 }
 
 
-div.navBar p {
+div.navBar .tittlePage {
     background: #121FCF;
     background: linear-gradient(to right, #EE10B0 0%, #0E9EEF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 60px;
+    font-size: 55px;
     padding-top: 45px;
-    padding-left: 25px;
+    padding-left: 10px;
+    margin-right: 15px;
 }
 
 div.menu p {
-    font-size: 25px;
+    font-size: 30px;
     color: #ff3780;
     padding-bottom: 20px;
+    padding-left: 25px;
+    margin-right: 15px;
+    padding-top: 45px;
 }
+
 
 div.menu ul {
     list-style: none;
     padding-left: 25px;
     color: #ffffff;
     display: flex;
-    gap: 12px;
+    gap: 25px;
     flex-direction: column;
 }
 
@@ -54,9 +72,9 @@ div.menu img {
 }
 
 div.boxRight {
-    background-color: #522b5b;
+    background-color: #49293f;
     width: 100%;
-    height: 3500px;
+    height: 3800px;
 }
 
 div.header {
@@ -66,7 +84,6 @@ div.header {
     height: 80px;
     align-items: center;
     padding: 0 10px;
-    p
 }
 
 .ti-search {
@@ -104,6 +121,10 @@ div.navHeader li {
     font-size: 24px;
 }
 
+div.navHeader li:hover {
+
+}
+
 div.btn {
     display: flex;
     gap: 8px;
@@ -126,9 +147,14 @@ div.btn button {
     width: 119px;
     border: 1px solid black;
     border-radius: 10px;
-    color: #c9cfdf;
-    background-color: #657a97;
+    color: #ee10b0;
+    background-color: #1e1e1e;
     font-weight: bold;
+}
+
+div.btn button:hover {
+    background-color: #ee10b0;
+    color: #1e1e1e;
 }
 
 div.slice {
@@ -159,13 +185,18 @@ div.groupBtn2 button {
     height: 41px;
     border: 1px solid #EE10B0;
     border-radius: 10px;
-    background-color: #f39f53;
-    color: #1d1a39;
+    background-color: #1e1e1e;
+    color: #ee10b0;
+}
+
+div.groupBtn2 button:hover {
+    background-color: #EE10B0;
+    color: #1e1e1e;
 }
 
 div.content {
     margin-top: 50px;
-    padding-left: 50px;
+    padding-left: 85px;
 }
 
 
@@ -173,7 +204,7 @@ div.content {
 div.songItem {
     width: 180px;
     height: 220px;
-    background-color: #dfb6d2;
+    background-color: #1f1f1f;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,7 +213,7 @@ div.songItem {
     text-align: center;
 }
 div.songItem p {
-    color: #190019;
+    color: #ffffff;
 }
 
 div.contentSong1 {
@@ -196,7 +227,7 @@ div.contentSong1 .name {
 
 div.listWsongs {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
 }
 
@@ -212,22 +243,17 @@ div.oval {
 }
 
 div.newRelease {
-    padding-top: 20px;
+    padding-top: 45px;
 }
 
 div.listNRsongs {
     display: flex;
-    gap: 10px;
-}
-
-div.listNRsongs {
-    display: flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
 }
 
 div.trendSong {
-    padding-top: 20px;
+    padding-top: 50px;
     width: 100%;
     position: relative;
 
@@ -238,14 +264,14 @@ div.titleTable {
 }
 
 div.titleTable ul {
-    padding-top: 15px;
+    /* padding-top: 15px; */
     margin-bottom: 10px;
     display: flex;
     list-style: none;
     /* gap: 60px; */
     position: absolute;
-    margin-left: 38%;
-    width: 630px;
+    margin-left: 35%;
+    width: 700px;
     justify-content: space-between;
 }
 
@@ -273,7 +299,7 @@ div.infoSongs div.name p{
 }
 
 div.infoSongs div.name .nameRank {
-    font-size: 25px;
+    font-size: 21px;
     font-weight: bold;
 }
 
@@ -315,7 +341,7 @@ div.popularArt {
 div.popularItems {
     padding-top: 20px;
     display: flex;
-    gap: 30px;
+    gap: 50px;
     align-items: center;
 }
 
@@ -335,7 +361,7 @@ div.musicVideo {
 
 div.itemMV div.mv {
     width: 300px;
-    height: 236px;
+    height: 255px;
     background-color: #1f1f1f;
 }
 
@@ -347,13 +373,13 @@ div.mv p {
     padding-left: 5px;
 }
 div.mv .views {
-    margin-left: 75%;
+    margin-left: 70%;
 }
 
 
 div.itemMV {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     padding-top: 20px;
     align-items: center;
 }
@@ -382,12 +408,12 @@ div.topAlbumitem div.iconTopalbum p {
 div.topAlbumitem div.iconTopalbum {
     display: flex;
     justify-content: space-between;
-    padding: 0 5px;
+    padding: 5px;
 }
 
 div.listTalbum {
     display: flex;
-    gap: 15px;
+    gap: 40px;
     padding-top: 20px;
     align-items: center;
 }
@@ -405,7 +431,7 @@ div.moodItem {
 div.moodItem div.para {
     display: flex;
     justify-content: space-between;
-    padding: 5px 0 5px;
+    padding: 7px;
     align-items: center;
     
 }
@@ -425,7 +451,7 @@ div.moodItem div.para img {
 
 div.moodlists {
     display: flex;
-    gap: 15px;
+    gap: 40px;
     padding-top: 20px;
     align-items: center;
 }
@@ -433,7 +459,7 @@ div.moodlists {
 div.infomation {
     justify-content: space-between;
     display: flex;
-    width: 910px;
+    width: 85%;
     margin-top: 20px;
 }
 
@@ -467,9 +493,14 @@ div.infoRight button {
     border-radius: 10px;
 }
 
+div.infoRight button:hover {
+    background-color: #EE10B0;
+    color: #1e1e1e;
+}
+
 div.footer {
     margin-top: 100px;
-    padding-left: 50px;
+    padding-left: 25px;
     width: 100%;
     display: flex;
     gap: 30px;
@@ -530,3 +561,4 @@ div.contentTrend div.infoSongs .titleAlbum {
     width: 30%;
     text-align: center;
 }
+

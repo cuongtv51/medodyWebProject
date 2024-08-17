@@ -1,41 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: "Be Vietnam Pro", sans-serif;
 }
-
 div.main {
     display: flex;
 }
-
 div.navBar {
-    width: 266px;
-    height: 2500px;
+    /* width: 266px; */
     background-color: #0e1920;
-
 }
-
 div.navBar li {
     font-weight: bold;
     display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 17px;
 }
-
-
+div.navBar li:hover {
+    background-color: #EE10B0;
+    color: #1e1e1e;
+    border-radius: 20px;
+}
 div.navBar p {
     background: #121FCF;
     background: linear-gradient(to right, #EE10B0 0%, #0E9EEF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 60px;
+    font-size: 55px;
     padding-top: 45px;
-    padding-left: 25px;
+    padding-left: 10px;
+    margin-right: 15px;
 }
 
 div.menu p {
-    font-size: 25px;
+    font-size: 30px;
     color: #ff3780;
     padding-bottom: 20px;
+    padding-left: 25px;
+    margin-right: 15px;
+    padding-top: 45px;
 }
 
 div.menu ul {
@@ -43,7 +51,7 @@ div.menu ul {
     padding-left: 25px;
     color: #ffffff;
     display: flex;
-    gap: 12px;
+    gap: 25px;
     flex-direction: column;
 }
 
@@ -54,9 +62,8 @@ div.menu img {
 }
 
 div.boxRight2 {
-    background-color: #522b5b;
+    background-color: #49293f;
     width: 100%;
-    height: 2500px;
 }
 
 div.header {
@@ -66,7 +73,7 @@ div.header {
     height: 80px;
     align-items: center;
     padding: 0 10px;
-    p
+    
 }
 
 .ti-search {
@@ -104,6 +111,10 @@ div.navHeader li {
     font-size: 24px;
 }
 
+div.navHeader li:hover {
+
+}
+
 div.btn {
     display: flex;
     gap: 8px;
@@ -114,14 +125,19 @@ div.btn button {
     width: 119px;
     border: 1px solid black;
     border-radius: 10px;
-    color: #c9cfdf;
-    background-color: #657a97;
+    color: #ee10b0;
+    background-color: #1e1e1e;
     font-weight: bold;
+}
+
+div.btn button:hover {
+    background-color: #ee10b0;
+    color: #1e1e1e;
 }
 
 div.content2 {
     margin-top: 50px;
-    padding-left: 50px;
+    padding-left: 80px;     
 }
 
 div.musicGenres {
@@ -137,7 +153,7 @@ div.listMusicGenres div.itemMgenres {
 
 div.listMusicGenres {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     position: relative;
     align-items: center;
 
@@ -152,8 +168,9 @@ div.musicGenres div.itemMgenres p {
     color: #ffffff;
 }
 
-div.moodPlaylist {
-    margin-top: 40px;
+div.moodPlaylist
+{
+    margin-top: 80px;
 }
 
 div.moodItem {
@@ -165,27 +182,27 @@ div.moodItem {
 div.moodItem div.para {
     display: flex;
     justify-content: space-between;
-    padding: 5px 0 5px;
+    padding: 7px;
     align-items: center;
 
 }
 
 div.moodItem div.para p {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     padding-left: 5px;
 }
 
 div.moodItem div.para img {
     background-color: #EE10B0;
-    border-radius: 7px;
+    border-radius: 7px 2px;
     padding-right: 3px;
 }
 
 div.moodlists {
     display: flex;
-    gap: 15px;
+    gap: 40px;
     padding-top: 20px;
     align-items: center;
 }
@@ -202,14 +219,14 @@ div.oval {
 }
 
 div.popularArt {
-    margin-top: 40px;
+    margin-top: 80px;
 
 }
 
 div.popularItems {
     padding-top: 20px;
     display: flex;
-    gap: 30px;
+    gap: 50px;
     align-items: center;
 }
 
@@ -224,7 +241,7 @@ div.popularItem {
 }
 
 div.musicVid {
-    padding-top: 40px;
+    padding-top: 80px;
 }
 
 div.musicVidItem {
@@ -234,14 +251,14 @@ div.musicVidItem {
 
 div.musicVidItem div.group1 {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     padding: 20px 15px 0 0;
 
 }
 
 div.musicVidItem div.group2 {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     padding-top: 15px;
 }
 
@@ -267,7 +284,7 @@ div.itemvidMusic div.viewVid {
 }
 
 div.newRelease {
-    padding-top: 20px;
+    padding-top: 80px;
 }
 
 div.listNRsongs {
@@ -277,24 +294,29 @@ div.listNRsongs {
 
 div.listNRsongs {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     align-items: center;
 }
 
 div.songItem {
     width: 180px;
     height: 220px;
-    background-color: #dfb6d2;
-    display: flex;
+    background-color: #1f1f1f;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 11px;
     text-align: center;
+    border-radius: 10px;
+}
+
+div.songItem img {
+    padding-top: 5px;
 }
 
 div.songItem p {
-    color: #190019;
+    color: #fff;
+    padding-top: 3px;
 }
 
 div.contentSong1 .name {
@@ -324,6 +346,7 @@ div.listTalbum div.topAlbumitem {
     background-color: #1e1e1e;
     border: 1px solid black;
     border-radius: 7px;
+    width: 185px;
 }
 
 div.topAlbumitem p {
@@ -345,7 +368,7 @@ div.topAlbumitem div.iconTopalbum {
 
 div.listTalbum {
     display: flex;
-    gap: 15px;
+    gap: 50px;
     padding-top: 20px;
     align-items: center;
 }
@@ -356,6 +379,7 @@ div.footer {
     width: 100%;
     display: flex;
     gap: 30px;
+    padding-bottom: 50px;
 
 }
 
