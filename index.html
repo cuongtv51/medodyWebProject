@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melody Web Music</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./responsive.css">
     <link rel="stylesheet" href="./icons/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="./modal.css">
 </head>
 
 <body>
@@ -166,8 +166,9 @@
                 </div>
 
                 <div class="newRelease">
-                    <p style="font-weight: bold; font-size: 30px; padding-bottom: 10px;color: #ffffff;">New Release <span
-                            style="color: #ff3780;">Songs</span></p>
+                    <p style="font-weight: bold; font-size: 30px; padding-bottom: 10px;color: #ffffff;">New Release
+                        <span style="color: #ff3780;">Songs</span>
+                    </p>
                     <div class="listNRsongs">
                         <div class="songItem">
                             <img src="./img/1.png" alt="">
@@ -602,46 +603,116 @@
 
         </div>
 
-        <!-- Modal-layout -->
+    </div>
+    <!-- Modal layout -->
+    <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <div class="modal__inner">
+                <!-- Register-form -->
+                <!-- <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Sign up</h3>
+                            <div class="auth-form__logo">
+                                <img src="./img/logo-no-background 1.png" alt="">
+                                <p>Melodies</p>
+                            </div>
+                            <span class="auth-form__switch-btn">Sign in</span>
 
-        
-            <!-- <div class="modal">
-                <div class="modal__overlay">
-    
-                </div>
-                <div class="modal__body">
-                    <div class="modal__inner">
-                         Authen form -->
-                         <!-- <div class="auth-form">
-                            <div class="auth-form__header">
-                                <h3 class="auth-form__heading">Sign in</h3>
-                                <sapn class="auth-form__switch-btn">Sign up</sapn>
-                                
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="UserName">
                             </div>
-                            <div class="auth-form__form">
-                                <div class="auth-form__group">
-                                    <input class="auth-form__input" type="text" placeholder="Nhap email">
-                                </div>
-                                <div class="auth-form__group">
-                                    <input class="auth-form__input" type="password" placeholder="Nhap mk">
-                                </div>
-                                <div class="auth-form__group">
-                                    <input class="auth-form__input" type="password" placeholder="Nhap lai mk">
-                                </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Password">
                             </div>
-                            <div class="auth-form__aside">
-                                <p class="auth-form__policy-text">
-                                    Bằng việc Sign in, bạn đã đòng ý với chúng tôi về
-                                    <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a>&
-                                    <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Re-enter the Password">
+                            </div>
 
-                                </p>
+                        </div>
+
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                By registering, you agree to
+                                <a href="" class="auth-form__text-link">Terms of Service</a> &
+                                <a href="" class="auth-form__text-link">Privacy Policy</a>
+                            </p>
+                        </div>
+
+                        <div class="auth-form__controls">
+                            <button class="btn ">BACK</button>
+                            <button class="btn btn--primary">Sign up</button>
+
+                        </div>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="btns btn--with-icon">
+                            <i class="ti-facebook"></i>
+                            Sign up with Facebook 
+                        </a>
+                        <a href="" class="btns btn--with-icon google">
+                            <i class="ti-google"></i>
+                             Sign up with Google 
+                        </a>
+                    </div>
+                </div> -->
+
+                <!-- Login-form -->
+                <div class="login-form">
+                    <div class="login-form__container">
+                        <div class="login-form__header">
+                            <h3 class="login-form__heading">Sign in</h3>
+                            <div class="login-form__logo">
+                                <img src="./img/logo-no-background 1.png" alt="">
+                                <p>Melodies</p>
                             </div>
-                         </div>
+                            <span class="login-form__switch-btn">Sign up</span>
+
+                        </div>
+                        <div class="login-form__form">
+                            <div class="login-form__group">
+                                <input type="text" class="login-form__input" placeholder="UserName">
+                            </div>
+                            <div class="login-form__group">
+                                <input type="password" class="login-form__input" placeholder="Password">
+                            </div>
+
+
+                        </div>
+
+                        <div class="login-form__aside">
+                            <div class="login-form__help">
+                                <a href="" class="login-form__help-link">Forgot password</a>
+                                <span class="login-form__help-separate"></span>
+                                <a href="" class="login-form__help-link">Help ?</a>
+                            </div>
+                        </div>
+
+                        <div class="login-form__controls">
+                            <button class="btn ">BACK</button>
+                            <button class="btn btn--primary">Sign in</button>
+
+                        </div>
+                    </div>
+
+                    <div class="login-form__socials">
+                        <a href="" class="btns btn--with-icon">
+                            <i class="ti-facebook"></i>
+                            Facebook Login
+                        </a>
+                        <a href="" class="btns btn--with-icon google">
+                            <i class="ti-google"></i>
+                            Google Login
+                        </a>
                     </div>
                 </div>
             </div>
-        </div> --> 
+        </div>
+    </div>
 </body>
 
 </html>
