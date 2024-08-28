@@ -39,6 +39,7 @@ div.navBar li:hover {
     background-color: #EE10B0;
     color: #1e1e1e;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 div.navBar p {
@@ -98,12 +99,18 @@ div.slider__top {
 }
 
 div.ti-arrow-left {
-    font-size: 25px;
+    font-size: 30px;
+    transition: transform .2s;
+}
+
+div.ti-arrow-left:hover {
+    cursor: pointer;
+    transform: scale(1.3);
 }
 
 div.slider__top--right {
     display: flex;
-    gap: 15px;
+    gap: 30px;
     align-items: center;
 }
 
@@ -111,12 +118,24 @@ div.slider__top--right img {
     background-color: #000;
     border: 1px solid #000;
     border-radius: 50%;
+    transition: transform .2s;
+}
+
+div.slider__top--right img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 div.slider__top--right a {
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold;  
+    transition: transform .2s;
+}
+
+div.slider__top--right a:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 div.slider__bottom p {
@@ -137,7 +156,7 @@ div.single__songs--lists,
 div.artirst__playlist--lists
 {
     display: flex;
-    gap: 50px;
+    gap: 70px;
     align-items: center;
 }
 
@@ -148,6 +167,15 @@ div.artirst__playlist--item
     background-color: var(--background-color-item);
     border: 1px solid var(--background-color-item);
     border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+div.artirst__albums--item:hover,
+div.single__songs--item:hover,
+div.artirst__playlist--item:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 div.artirst__albums--icon,
@@ -195,7 +223,16 @@ div.artirst__playlist--icon {
 div.artirst__fanListen--lists {
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: 90px;
+}
+
+div.artirst__fanListen--item{
+    transition: transform .2s;
+}
+
+div.artirst__fanListen--item:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 div.artirst__fanListen--item p {
@@ -217,6 +254,11 @@ div.popular__tittleMusic {
     margin-left: 32%;
     width: 658px;
     gap: 381px;
+}
+
+div.popular__musicInfo--name .name-main {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 div.popular__tittleMusic p {
@@ -328,6 +370,15 @@ div.iconFooter p {
 div.iconSocial {
     display: flex;
     gap: 20px;
+}
+
+div.iconSocial img {
+    transition: transform .2s;
+}
+
+div.iconSocial img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
 }
 
 div.iconFooter {

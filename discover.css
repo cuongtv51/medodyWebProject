@@ -25,6 +25,7 @@ div.navBar li:hover {
     background-color: #EE10B0;
     color: #1e1e1e;
     border-radius: 20px;
+    cursor: pointer;
 }
 div.navBar p {
     background: #121FCF;
@@ -109,10 +110,12 @@ div.navHeader li {
     color: #fbe4d8;
     font-weight: bold;
     font-size: 24px;
+    transition: transform .2s;
 }
 
 div.navHeader li:hover {
-
+    transform: scale(1.3);
+    cursor: pointer;
 }
 
 div.btn {
@@ -133,6 +136,7 @@ div.btn button {
 div.btn button:hover {
     background-color: #ee10b0;
     color: #1e1e1e;
+    cursor: pointer;
 }
 
 div.content2 {
@@ -149,6 +153,12 @@ div.listMusicGenres div.itemMgenres {
     height: 170px;
     border: 1px solid black;
     border-radius: 5px;
+    transition: transform .2s;
+}
+
+div.listMusicGenres div.itemMgenres:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 div.listMusicGenres {
@@ -177,6 +187,13 @@ div.moodItem {
     background-color: #1e1e1e;
     border: 1px solid black;
     border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+div.moodItem:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 div.moodItem div.para {
@@ -238,6 +255,12 @@ div.popularItems div.popularItem p {
 
 div.popularItem {
     text-align: center;
+    transition: transform .2s;
+}
+
+div.popularItem:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
 
 div.musicVid {
@@ -264,6 +287,12 @@ div.musicVidItem div.group2 {
 
 div.itemvidMusic {
     background-color: #1e1e1e;
+    transition: transform .2s;
+}
+
+div.itemvidMusic:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 div.musicVidItem p {
@@ -302,13 +331,18 @@ div.songItem {
     width: 180px;
     height: 220px;
     background-color: #1f1f1f;
-    flex-direction: column;
+    /* flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 11px;
+    gap: 11px; */
     text-align: center;
     border-radius: 10px;
+    
 }
+
+div.songItem :hover {
+    /* transform: scale(1.1); */
+} 
 
 div.songItem img {
     padding-top: 5px;
@@ -347,6 +381,14 @@ div.listTalbum div.topAlbumitem {
     border: 1px solid black;
     border-radius: 7px;
     width: 185px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+div.listTalbum div.topAlbumitem:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 div.topAlbumitem p {
@@ -415,6 +457,15 @@ div.iconFooter p {
 div.iconSocial {
     display: flex;
     gap: 20px;
+}
+
+div.iconSocial img {
+    transition: transform .2s;
+}
+
+div.iconSocial img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 div.iconFooter {

@@ -70,8 +70,8 @@
                 </div>
 
                 <div class="btn">
-                    <button>Login</button>
-                    <button>Sign up</button>
+                    <button class="js-modalOpen">Login</button>
+                    <button class="js-modalOpen">Sign up</button>
                 </div>
             </div>
 
@@ -605,12 +605,12 @@
 
     </div>
     <!-- Modal layout -->
-    <div class="modal">
+    <div class="modal js-modal">
         <div class="modal__overlay"></div>
         <div class="modal__body">
-            <div class="modal__inner">
+            <div class="modal__inner js-modal-inner">
                 <!-- Register-form -->
-                <!-- <div class="auth-form">
+                <!-- <div class="auth-form js-auth-open">
                     <div class="auth-form__container">
                         <div class="auth-form__header">
                             <h3 class="auth-form__heading">Sign up</h3>
@@ -693,18 +693,18 @@
                         </div>
 
                         <div class="login-form__controls">
-                            <button class="btn ">BACK</button>
-                            <button class="btn btn--primary">Sign in</button>
+                            <button class="btn-control js-modal-close">BACK</button>
+                            <button class="btn-control btn--primary">Sign in</button>
 
                         </div>
                     </div>
 
                     <div class="login-form__socials">
-                        <a href="" class="btns btn--with-icon">
+                        <a href="https://www.google.com/" class="btns btn--with-icon">
                             <i class="ti-facebook"></i>
                             Facebook Login
                         </a>
-                        <a href="" class="btns btn--with-icon google">
+                        <a href="https://www.google.com/" class="btns btn--with-icon google">
                             <i class="ti-google"></i>
                             Google Login
                         </a>
@@ -713,6 +713,8 @@
             </div>
         </div>
     </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>

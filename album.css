@@ -45,6 +45,7 @@ div.navBar li:hover {
     background-color: #EE10B0;
     color: #1e1e1e;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 div.navBar p {
@@ -97,6 +98,12 @@ div.slider__top .ti-arrow-left {
     font-size: 30px;
     font-weight: bold;
     color: var(--text-main-color);
+    transition: transform .2s;
+}
+
+div.slider__top .ti-arrow-left:hover {
+    cursor: pointer;
+    transform: scale(1.3);
 }
 
 div.slider__topRight {
@@ -109,12 +116,24 @@ div.slider__topRight a {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
+    transition: transform .2s;
+}
+
+div.slider__topRight a:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 div.slider__topRight img {
     background-color: #1e1e1e;
     border: 1px solid black;
     border-radius: 50%;
+    transition: transform .2s;
+}
+
+div.slider__topRight img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 div.slider__center {
@@ -122,6 +141,15 @@ div.slider__center {
     gap: 40px;
     padding-top: 50px;
     padding-left: 30px;
+}
+
+div.slider__center img {
+    transition: transform .2s;
+}
+
+div.slider__center img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 div.slider__centerRight {
@@ -148,6 +176,15 @@ div.slider__bottom {
     align-items: center;
     padding-right: 15px;
     gap: 10px;
+}
+
+div.slider__bottom img {
+    transition: transform .2s;
+}
+
+div.slider__bottom img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 div.slider__bottom p {
@@ -219,6 +256,13 @@ div.rank__Info--time {
     gap: 5px;
 }
 
+div.rank__item .nameMain {
+    font-size: 25px;
+     color:var(--text-main-color);
+    font-weight: bold;
+    
+}
+
 div.footer {
     margin-top: 100px;
     padding-left: 60px;
@@ -260,6 +304,15 @@ div.iconFooter p {
 div.iconSocial {
     display: flex;
     gap: 20px;
+}
+
+div.iconSocial img {
+    transition: transform .2s;
+}
+
+div.iconSocial img:hover {
+    transform: scale(1.3);
+    cursor: pointer;
 }
 
 div.iconFooter {
