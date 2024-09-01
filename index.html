@@ -20,35 +20,35 @@
                 <div class="listMenu">
                     <p>Menu</p>
                     <ul>
-                        <li><img src="img/Vector (1).png" alt="">Home</li>
-                        <li><img src="img/Vector (1).png" alt="">Discover</li>
-                        <li><img src="img/Vector (2).png" alt="">Albums</li>
-                        <li><img src="img/Group.png" alt="">Artists</li>
+                        <a href="./index.html"><img src="img/Vector (1).png" alt="">Home</a>
+                        <a href="./discover.html"><img src="img/Vector (1).png" alt="">Discover</a>
+                        <a href="./album.html"><img src="img/Vector (2).png" alt="">Albums</a>
+                        <a href="./artirst.html"><img src="img/Group.png" alt="">Artists</a>
                     </ul>
                 </div>
                 <div class="libra">
                     <p>Library</p>
                     <div class="listLibra">
                         <ul>
-                            <li> <img src="img/fluent-mdl2_recent.png" alt="">Recently Added</li>
-                            <li> <img src="img/arcticons_niagara-launcher-recently-installed.png" alt="">Most played
-                            </li>
+                            <a> <img src="img/fluent-mdl2_recent.png" alt="">Recently Added</a>
+                            <a> <img src="img/arcticons_niagara-launcher-recently-installed.png" alt="">Most played
+                            </a>
                         </ul>
                     </div>
                 </div>
                 <div class="Add">
                     <p>Playlist and favourite</p>
                     <ul>
-                        <li><img src="img/ph_heart-light.png" alt="">Your favourite</li>
-                        <li><img src="img/ph_playlist.png" alt="">Your playlist</li>
-                        <li style="color: #0e9eef;"><img src="img/subway_add-playlist.png" alt="">Add playlist</li>
+                        <a><img src="img/ph_heart-light.png" alt="">Your favourite</a>
+                        <a><img src="img/ph_playlist.png" alt="">Your playlist</a>
+                        <a style="color: #0e9eef;"><img src="img/subway_add-playlist.png" alt="">Add playlist</a>
                     </ul>
                 </div>
                 <div class="setting">
                     <p>General</p>
                     <ul>
-                        <li><img src="img/lets-icons_setting-line.png" alt="">Setting</li>
-                        <li style="color: #ff3780;"><img src="img/line-md_log-out.png" alt="">Logout</li>
+                        <a><img src="img/lets-icons_setting-line.png" alt="">Setting</a>
+                        <a class="btn-logOut" style="color: #ff3780;"><img src="img/line-md_log-out.png" alt="">Logout</a>
                     </ul>
                 </div>
             </div>
@@ -410,19 +410,28 @@
                             style="color: #ff3780;">Video</span></p>
                     <div class="itemMV">
                         <div class="mv">
-                            <img src="./img/Rectangle 35.png" alt="">
+                            <!-- <img src="./img/Rectangle 35.png" alt=""> -->
+                             <div>
+                                <iframe width="100%"  src="https://www.youtube.com/embed/niPkap1ozUA" title="SON TUNG M-TP | MAKING MY WAY | OFFICIAL VISUALIZER" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                             </div>
                             <p style="font-size: 20px;">Gossip</p>
                             <p>Maneskin</p>
                             <p class="views">231k views</p>
                         </div>
                         <div class="mv">
-                            <img src="./img/Rectangle 35 (1).png" alt="">
+                            <!-- <img src="./img/Rectangle 35 (1).png" alt=""> -->
+                             <div>
+                                <iframe width="100%"  src="https://www.youtube.com/embed/JHSRTU31T14" title="SƠN TÙNG M-TP | THERE’S NO ONE AT ALL (ANOTHER VERSION) | OFFICIAL MUSIC VIDEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                             </div>
                             <p style="font-size: 20px;">Shape of you</p>
                             <p>ED Sheeran</p>
                             <p class="views">365k views</p>
                         </div>
                         <div class="mv">
-                            <img src="./img/Rectangle 35 (2).png" alt="">
+                            <!-- <img src="./img/Rectangle 35 (2).png" alt=""> -->
+                             <div>
+                                <iframe width="100%" src="https://www.youtube.com/embed/-vtBgNxMyZI" title="CHẠY NGAY ĐI (ONIONN REMIX)| RUN NOW (ONIONN REMIX) | SƠN TÙNG M-TP | Official Music Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                             </div>
                             <p style="font-size: 20px;">Some one like you</p>
                             <p>Adele</p>
                             <p class="views">800k views</p>
@@ -604,116 +613,111 @@
         </div>
 
     </div>
+
     <!-- Modal layout -->
     <div class="modal js-modal">
         <div class="modal__overlay"></div>
         <div class="modal__body">
-            <div class="modal__inner js-modal-inner">
-                <!-- Register-form -->
-                <!-- <div class="auth-form js-auth-open">
-                    <div class="auth-form__container">
-                        <div class="auth-form__header">
-                            <h3 class="auth-form__heading">Sign up</h3>
-                            <div class="auth-form__logo">
-                                <img src="./img/logo-no-background 1.png" alt="">
-                                <p>Melodies</p>
-                            </div>
-                            <span class="auth-form__switch-btn">Sign in</span>
 
+            <!-- Sign up/register form -->
+            <div class="auth-form auth-form--signup ">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Sign up</h3>
+                        <span class="auth-form__swich-btn">Sign in</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" id="signup-email" placeholder="Enter Email">
                         </div>
-                        <div class="auth-form__form">
-                            <div class="auth-form__group">
-                                <input type="text" class="auth-form__input" placeholder="UserName">
-                            </div>
-                            <div class="auth-form__group">
-                                <input type="password" class="auth-form__input" placeholder="Password">
-                            </div>
-                            <div class="auth-form__group">
-                                <input type="password" class="auth-form__input" placeholder="Re-enter the Password">
-                            </div>
-
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" id="signup-password"
+                                placeholder="Enter password">
                         </div>
-
-                        <div class="auth-form__aside">
-                            <p class="auth-form__policy-text">
-                                By registering, you agree to
-                                <a href="" class="auth-form__text-link">Terms of Service</a> &
-                                <a href="" class="auth-form__text-link">Privacy Policy</a>
-                            </p>
-                        </div>
-
-                        <div class="auth-form__controls">
-                            <button class="btn ">BACK</button>
-                            <button class="btn btn--primary">Sign up</button>
-
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" id="signup-confirm-password"
+                                placeholder="Enter password again">
                         </div>
                     </div>
 
-                    <div class="auth-form__socials">
-                        <a href="" class="btns btn--with-icon">
-                            <i class="ti-facebook"></i>
-                            Sign up with Facebook 
-                        </a>
-                        <a href="" class="btns btn--with-icon google">
-                            <i class="ti-google"></i>
-                             Sign up with Google 
-                        </a>
-                    </div>
-                </div> -->
-
-                <!-- Login-form -->
-                <div class="login-form">
-                    <div class="login-form__container">
-                        <div class="login-form__header">
-                            <h3 class="login-form__heading">Sign in</h3>
-                            <div class="login-form__logo">
-                                <img src="./img/logo-no-background 1.png" alt="">
-                                <p>Melodies</p>
-                            </div>
-                            <span class="login-form__switch-btn">Sign up</span>
-
-                        </div>
-                        <div class="login-form__form">
-                            <div class="login-form__group">
-                                <input type="text" class="login-form__input" placeholder="UserName">
-                            </div>
-                            <div class="login-form__group">
-                                <input type="password" class="login-form__input" placeholder="Password">
-                            </div>
-
-
-                        </div>
-
-                        <div class="login-form__aside">
-                            <div class="login-form__help">
-                                <a href="" class="login-form__help-link">Forgot password</a>
-                                <span class="login-form__help-separate"></span>
-                                <a href="" class="login-form__help-link">Help ?</a>
-                            </div>
-                        </div>
-
-                        <div class="login-form__controls">
-                            <button class="btn-control js-modal-close">BACK</button>
-                            <button class="btn-control btn--primary">Sign in</button>
-
-                        </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            By registering, you agree to
+                            <a href="" class="auth-form__text-link">Terms of Service</a> &
+                            <a href="" class="auth-form__text-link">Privacy Policy</a>
+                        </p>
                     </div>
 
-                    <div class="login-form__socials">
-                        <a href="https://www.google.com/" class="btns btn--with-icon">
-                            <i class="ti-facebook"></i>
-                            Facebook Login
-                        </a>
-                        <a href="https://www.google.com/" class="btns btn--with-icon google">
-                            <i class="ti-google"></i>
-                            Google Login
-                        </a>
+                    <div class="auth-form__controls">
+                        <button class="btn-modal auth-form__controls-back js-modalClose">BACK</button>
+                        <button class="btn-modal btn--primary" id="signup-btn">SIGN UP</button>
+
                     </div>
                 </div>
+
+
+
+                <div class="auth-form__socials">
+                    <a href="" class="btns btn--with-icon face">
+                        <i class=" auth-form__socials-icon ti-facebook"></i>
+                        Sign up with Facebook
+                    </a>
+                    <a href="" class="btns btn--with-icon Google">
+                        <i class=" auth-form__socials-icon ti-google"></i>
+                        Sign up with Google
+                    </a>
+                </div>
             </div>
+
+            <!-- Sign in form -->
+            <div class="auth-form auth-form--signin">
+                <div class="auth-form__container ">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Sign in</h3>
+                        <span class="auth-form__swich-btn">Sign up</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" id="signin-email" placeholder="Enter Email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" id="signin-password"
+                                placeholder="Enter password">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a class="auth-form__help-text">Forgot your password</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a class="auth-form__help-text">Need help ?</a>
+
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn-modal auth-form__controls-back js-modalClose">BACK</button>
+                        <button class="btn-modal btn--primary" id="signin-btn">SIGN IN</button>
+
+                    </div>
+                </div>
+
+
+
+                <div class="auth-form__socials">
+                    <a href="" class="btns btn--with-icon face">
+                        <i class=" auth-form__socials-icon ti-facebook"></i>
+                        Sign in with Facebook
+                    </a>
+                    <a href="" class="btns btn--with-icon Google">
+                        <i class=" auth-form__socials-icon ti-google"></i>
+                        Sign in with Google
+                    </a>
+                </div>
+            </div>
+
         </div>
     </div>
-
     <script src="index.js"></script>
 </body>
 

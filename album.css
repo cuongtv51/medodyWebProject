@@ -32,16 +32,18 @@ div.navBar {
     
 }
 
-div.navBar li {
+div.navBar a {
     font-weight: bold;
     display: flex;
     align-items: center;
     height: 40px;
     padding-left: 20px;
     font-size: 17px;
+    text-decoration: none;
+    color: #ffffff;
 }
 
-div.navBar li:hover {
+div.navBar a:hover {
     background-color: #EE10B0;
     color: #1e1e1e;
     border-radius: 20px;
@@ -53,16 +55,18 @@ div.navBar p {
     background: linear-gradient(to right, #EE10B0 0%, #0E9EEF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 60px;
+    font-size: 55px;
     padding-top: 45px;
-    padding-left: 25px;
+    padding-left: 10px;
     padding-right: 15px;
 }
 
 div.menu p {
-    font-size: 25px;
+    font-size: 30px;
     color: #ff3780;
     padding-bottom: 20px;
+    padding-left: 25px;
+    margin-right: 15px;
 }
 
 div.menu ul {
@@ -70,7 +74,7 @@ div.menu ul {
     padding-left: 25px;
     color: #ffffff;
     display: flex;
-    gap: 12px;
+    gap: 25px;
     flex-direction: column;
 }
 

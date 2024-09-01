@@ -19,16 +19,18 @@ div.navBar {
     
 }
 
-div.navBar li {
+div.navBar a {
     font-weight: bold;
     display: flex;
     align-items: center;
     height: 40px;
     padding-left: 20px;
     font-size: 17px;
+    text-decoration: none;
+    color: #ffffff;
 }
 
-div.navBar li:hover {
+div.navBar a:hover {
     background-color: #EE10B0;
     color: #1e1e1e;
     border-radius: 20px;
@@ -65,6 +67,8 @@ div.menu ul {
     gap: 25px;
     flex-direction: column;
 }
+
+
 
 div.menu img {
     width: 20px;

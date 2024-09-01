@@ -13,15 +13,17 @@ div.navBar {
     /* width: 266px; */
     background-color: #0e1920;
 }
-div.navBar li {
+div.navBar a {
     font-weight: bold;
     display: flex;
     align-items: center;
     height: 40px;
     padding-left: 20px;
     font-size: 17px;
+    text-decoration: none;
+    color: #fff;
 }
-div.navBar li:hover {
+div.navBar a:hover {
     background-color: #EE10B0;
     color: #1e1e1e;
     border-radius: 20px;
