@@ -7,6 +7,7 @@
     <title>Discover web</title>
     <link rel="stylesheet" href="discover.css">
     <link rel="stylesheet" href="./icons/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="modal.css">
 
 </head>
 
@@ -68,8 +69,8 @@
                 </div>
 
                 <div class="btn">
-                    <button>Login</button>
-                    <button>Sign up</button>
+                    <button  class="js-modalOpen">Login</button>
+                    <button  class="js-modalOpen">Sign up</button>
                 </div>
             </div>
 
@@ -377,7 +378,7 @@
                             <div class="oval">
                                 <img src="./img/+.png" alt="">
                             </div>
-                            <p style="color: #000;">View All</p>
+                            <p style="color: #fff;">View All</p>
                         </div>
                     </div>
                 </div>
@@ -418,10 +419,11 @@
                     <div class="iconFooter">
                         <p>Melodies</p>
                         <div class="iconSocial">
-                            <img src="./img/fb.png" alt="">
-                            <img src="./img/insta.png" alt="">
-                            <img src="./img/twitter.png" alt="">
-                            <img src="./img/call.png" alt="">
+                            <a href="https://x.com/"><img src="./img/fb.png" alt=""></a>
+                            <a href="https://x.com/"><img src="./img/insta.png" alt=""></a>
+                            <a href="https://x.com/"><img src="./img/twitter.png" alt=""></a>
+                            <a href="https://x.com/"><img src="./img/call.png" alt=""></a>
+                
                         </div>
                     </div>
     
@@ -432,6 +434,112 @@
         </div>
     </div>
     </div>
+
+    <!-- Modal layout -->
+    <div class="modal js-modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+
+            <!-- Sign up/register form -->
+            <div class="auth-form auth-form--signup ">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Sign up</h3>
+                        <span class="auth-form__swich-btn">Sign in</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" id="signup-email" placeholder="Enter Email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" id="signup-password"
+                                placeholder="Enter password">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" id="signup-confirm-password"
+                                placeholder="Confirm password">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            By registering, you agree to
+                            <a href="" class="auth-form__text-link">Terms of Service</a> &
+                            <a href="" class="auth-form__text-link">Privacy Policy</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn-modal auth-form__controls-back js-modalClose">BACK</button>
+                        <button class="btn-modal btn--primary" id="signup-btn">SIGN UP</button>
+
+                    </div>
+                </div>
+
+
+
+                <div class="auth-form__socials">
+                    <a href="https://www.google.com/xhtml/search" class="btns btn--with-icon face">
+                        <i class=" auth-form__socials-icon ti-facebook"></i>
+                        Sign up with Facebook
+                    </a>
+                    <a href="https://www.google.com/xhtml/search" class="btns btn--with-icon Google">
+                        <i class=" auth-form__socials-icon ti-google"></i>
+                        Sign up with Google
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sign in form -->
+            <div class="auth-form auth-form--signin">
+                <div class="auth-form__container ">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Sign in</h3>
+                        <span class="auth-form__swich-btn">Sign up</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" id="signin-email" placeholder="Enter Email">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" id="signin-password"
+                                placeholder="Enter password">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a class="auth-form__help-text">Forgot your password</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a class="auth-form__help-text">Need help ?</a>
+
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn-modal auth-form__controls-back js-modalClose">BACK</button>
+                        <button class="btn-modal btn--primary" id="signin-btn">SIGN IN</button>
+
+                    </div>
+                </div>
+
+
+
+                <div class="auth-form__socials">
+                    <a href="https://www.google.com/xhtml/search" class="btns btn--with-icon face">
+                        <i class=" auth-form__socials-icon ti-facebook"></i>
+                        Sign in with Facebook
+                    </a>
+                    <a href="https://www.google.com/xhtml/search" class="btns btn--with-icon Google">
+                        <i class=" auth-form__socials-icon ti-google"></i>
+                        Sign in with Google
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <script src="index.js"></script>
 </body>
 

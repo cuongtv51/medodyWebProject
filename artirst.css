@@ -212,6 +212,15 @@ div.oval {
     align-items: center;
 }
 
+div.viewAll {
+    transition: transform .2s;
+}
+
+div.viewAll:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 div.single__songs--item {
     width: 171px;
 }

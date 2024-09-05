@@ -23,7 +23,14 @@ div.album__container {
     
 }
 
+div.viewAll {
+    transition: transform .2s;
+}
 
+div.viewAll:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
 
 div.navBar {
     /* width: 266px;

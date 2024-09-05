@@ -71,13 +71,18 @@ div.boxRight2 {
 
 div.header {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 170px;
     width: 100%;
     height: 80px;
     align-items: center;
     padding: 0 10px;
-    
+    position: fixed;
+    background-color: #190019;
+    z-index: 1;
 }
+    
+
 
 .ti-search {
     padding-left: 3px;
@@ -88,6 +93,10 @@ div.searchBar input {
     width: 100%;
     height: 100%;
     border-radius: 10px;
+}
+
+div.searchBar input:focus {
+    outline: none;
 }
 
 div.searchBar {
@@ -146,8 +155,18 @@ div.content2 {
     padding-left: 80px;     
 }
 
+div.viewAll {
+    transition: transform .2s;
+}
+
+div.viewAll:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
 div.musicGenres {
     height: 230px;
+    padding-top: 3%;
 }
 
 div.listMusicGenres div.itemMgenres {
@@ -182,7 +201,7 @@ div.musicGenres div.itemMgenres p {
 
 div.moodPlaylist
 {
-    margin-top: 80px;
+    margin-top: 110px;
 }
 
 div.moodItem {
